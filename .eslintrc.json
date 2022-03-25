@@ -1,0 +1,30 @@
+{
+    "env": {
+        "node": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "extends": ["eslint:recommended", "prettier"],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+        "no-unused-vars": "off",
+        "camelcase": [
+            0,
+            {
+                "properties": "always"
+            }
+        ],
+        "eqeqeq": 0,
+        "no-use-before-define": [
+            "error",
+            {
+                "variables": false,
+                "functions": false,
+                "classes": true
+            }
+        ],
+        "no-empty": 0
+    }
+}

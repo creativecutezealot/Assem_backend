@@ -1,0 +1,13 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.webpack
+.DS_Store
+log
+# misc
+package-lock.json
+.env
+aws_config.json
